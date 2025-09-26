@@ -3,7 +3,7 @@ import cors from 'cors'
 import dotenv from 'dotenv/config'
 import connectDB from './configs/mongodb.js'
 import { clerkWebhooks } from './controllers/webhooks.js'
-import bodyParser from "body-parser";
+
 
 //Intialize express
 const app= express()
